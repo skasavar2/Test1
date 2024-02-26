@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 const router = express.Router();
 const connectDb = require('./config/dbConnection');
 
-connectDb();
+//connectDb();
 
 // // Load SSL/TLS certificate and private key
 // const options = {
